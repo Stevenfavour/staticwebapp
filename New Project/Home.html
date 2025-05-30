@@ -2,11 +2,11 @@
 <html>
 <head lang="en">
 	<meta charset="utf-8">
-		<link rel="stylesheet" href="./assests/css/bootstrap.css">
+		<link rel="stylesheet" href="{{ url_for('assests', filename= 'css/bootstrap.css')}}">
 </head>
 	<body>
 		<div class="container" style="margin-buttom: 80px; padding-top: 35px;">
-		<div class="col-md-4"><img src="./assests/img/favs1.jpg" class="img-responsive" width="450px" height="450px"></div>
+		<div class="col-md-4"><img src="{{ url_for('assests', filename='img/favs1.jpg')}}" class="img-responsive" width="450px" height="450px"></div>
 		<div class="col-md-8 text-center">
 		<h2>EMPERORJEJE SCHOLARSHIP FOUNDATION {ESF}</h2>
 	</div>
